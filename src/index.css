@@ -1,13 +1,49 @@
-body {
+*, html{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+body{
+  background: linear-gradient(to right, #ffafbd, #ffc3a0);
+  height: 100vh; 
+}
+.btn-whatsapp {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  bottom: 5px;
+  right: 5px;
+  cursor: pointer;
+  border-radius:100px;
+  transition: all .5s ease-in-out;
+  padding: 0;
+  border:none;
+}
+.btn-whatsapp:hover{
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+  box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+  transition-duration: .5s;
+  transform: scale(1.05);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media only screen and (max-width: 768px){
+  .btn-whatsapp {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+    border-radius:100px;
+    transition: all .5s ease-in-out;
+  }
+  .btn-whatsapp:hover{
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+    box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+    transition-duration: .5s;
+    transform: scale(1.05);
+  }
 }
