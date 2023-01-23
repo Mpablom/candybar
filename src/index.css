@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Alegreya Sans', sans-serif;
 }
 body{
-  background: linear-gradient(to right, #ffafbd, #ffc3a0);
-  height: 100vh; 
+  background: linear-gradient(to bottom ,rgb(231, 166, 207),rgb(250, 151, 214),#c93fa7);
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
 }
 .btn-whatsapp {
   display: block;
@@ -26,24 +26,4 @@ body{
   box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
   transition-duration: .5s;
   transform: scale(1.05);
-}
-
-@media only screen and (max-width: 768px){
-  .btn-whatsapp {
-    display: block;
-    position: fixed;
-    z-index: 1;
-    bottom: 5px;
-    right: 5px;
-    cursor: pointer;
-    border-radius:100px;
-    transition: all .5s ease-in-out;
-  }
-  .btn-whatsapp:hover{
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
-    box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
-    transition-duration: .5s;
-    transform: scale(1.05);
-  }
 }

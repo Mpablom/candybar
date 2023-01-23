@@ -3,6 +3,8 @@ import './App.css';
 import { Banner } from './components/Banner/Banner';
 import { Bio } from './components/Bio/Bio';
 import { Navbar } from './components/Navbar/Navbar';
+import { Video } from './components/Multimedia/Video'
+import { Formulario } from './components/Contactenos/Formulario';
 
 function App() {
   return (
@@ -16,8 +18,10 @@ function App() {
           <Bio />
         </section>
         <section id='galeria'>
+          <Video />
         </section>
         <section id='contacto'>
+          <Formulario />
         </section>
       </main>
       <footer>

@@ -1,7 +1,7 @@
 .text-bio{
-    font-style: italic;
+    font-style:normal;
     font-size: 17px;
-    color: black;
+    color: #000000;
     text-align:center;
     width: 95%;
     margin-left: 2.5%;

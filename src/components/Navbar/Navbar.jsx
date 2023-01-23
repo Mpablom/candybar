@@ -2,8 +2,10 @@ import logo1 from "../../assets/img/logo1.png";
 import "./navbar.css";
 
 export function Navbar() {
-  return (
-        <nav className="navbar bg-transparent bg-gradient">
+    return (
+        <div className="barra">
+            <br />
+            <nav class="navbar sticky-top bg-transparent bg-gradient">
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">
                 <img className="logo" src={logo1} alt="Logo" width="50" height="30" />
@@ -14,6 +16,7 @@ export function Navbar() {
                     <a className="nav-link" href="#contacto">Contáctenos</a>
                 </div>
             </div>
-        </nav>
-  );
+            </nav>
+        </div>
+    );
 }

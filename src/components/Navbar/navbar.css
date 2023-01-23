@@ -1,11 +1,11 @@
-.container{
+.container-fluid{
     margin-left: 0;
 }
 .navbar-nav{
-  flex-direction: row;
+	flex-direction: row;
 }
 .nav-link{
-  padding: .5rem;
+	padding: .5rem;
 }
 .logo{
     animation: float 5s linear infinite;
