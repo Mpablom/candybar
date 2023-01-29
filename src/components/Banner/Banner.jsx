@@ -3,8 +3,8 @@ import './banner.css'
 
 export function Banner() {
     return(
-        <div className="container-fluid">
-            <img className="banner img-fluid" src={banner} alt="banner"/>
+        <div className="container-fluid banner-cont">
+            <img className="banner" src={banner} alt="banner"/>
         </div>
     );
 }
